@@ -1,0 +1,23 @@
+body{
+  background-color:#5fffea75;   /* light blue background */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  /* main website cobtent */
+  font: size 16px;  /* default website font-size */
+  text-align: center; /* Default text orientation */
+}
+.container{
+   width: 80%; /* making website to be boxed */
+    background-color: white; /* white website background */
+    margin: 0 auto;  /* aligning the website center */
+}
+h1.title{
+  text-align: left !important;
+  color: brown;
+  text-transform: uppercase;
+   font-size: 40px;
+   padding: 10px;
+}
+h1.title:hover{
+  text-decoration: overline;
+  color: #a52a2a75;
+  transition: ease-in-out .7s;
+}
