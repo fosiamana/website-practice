@@ -1,7 +1,7 @@
 body{
   background-color:#5fffea75;   /* light blue background */
   font-family: Verdana, Geneva, Tahoma, sans-serif;  /* main website cobtent */
-  font: size 16px;  /* default website font-size */
+  font-size:  16px;  /* default website font-size */
   text-align: center; /* Default text orientation */
 }
 .container{
@@ -20,4 +20,48 @@ h1.title:hover{
   text-decoration: overline;
   color: #a52a2a75;
   transition: ease-in-out .7s;
+}
+/* navigation bar */
+.top-menu{
+ background-color:brown ;  /* assigning brwn color */
+overflow: hidden;    /* hiding the text over flows  */
+
+}
+.top-menu ul li{
+  list-style-type: none;
+  float: left;
+  border-right: 2px solid #5fffea;
+  padding: 5px 10px;
+
+}
+.top-menu ul li a{
+  text-decoration: none; 
+  text-transform: uppercase; 
+  color: #5fffea;
+  font-weight: 800;
+  font-size: 24px;
+}
+.top-menu ul li:hover{
+  background-color: #5fffea;
+
+}
+.top-menu ul li:hover a{
+  text-decoration: underline;
+  color: brown;
+}
+/* styling image */
+.main-img{
+  width: 100%;
+  height: 50vh;
+}
+.credit{
+  background-color: brown;
+  padding: 30px;
+  color: white;
+  font-size: 24px;
+}
+.credit:hover{
+  transform: rotate(15deg);
+  transition: ease-in-out 10ms;
+
 }
